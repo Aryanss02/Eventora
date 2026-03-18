@@ -99,12 +99,6 @@ npm run dev
 
 ---
 
-## 📸 Screenshots
-
-_(Add screenshots of your UI here for better presentation)_
-
----
-
 ## 🚀 Deployment
 
 - Frontend: Vercel / Netlify
