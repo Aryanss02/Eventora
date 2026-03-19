@@ -2,6 +2,9 @@ const mongoose = require("mongoose");
 
 async function connectToDB() {
   try {
+    // 🔍 Debug line (add this)
+    console.log("MONGO_URI:", process.env.MONGO_URI);
+
     await mongoose.connect(process.env.MONGO_URI, {
       serverSelectionTimeoutMS: 5000
     });
