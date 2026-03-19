@@ -18,6 +18,11 @@ app.use(express.json());
 
 connectToDB();
 
+// Health check route (keeps Render from sleeping)
+app.get('/', (req, res) => {
+  res.status(200).json({ status: 'Server is awake ✅' });
+});
+
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/events', eventRoutes);
