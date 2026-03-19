@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://eventora-backend-g35z.onrender.com/api',
+  baseURL: 'https://eventora-n5jf.onrender.com/api',
 });
 
 api.interceptors.request.use((config) => {
