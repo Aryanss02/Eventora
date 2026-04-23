@@ -17,98 +17,99 @@ Eventora is a full-stack web application that allows users to browse, book, and 
 
 ## 🛠️ Tech Stack
 
-### Frontend (Client)
-
+### 🎨 Frontend (Client)
 - React.js
 - Vite
-- CSS / Tailwind (if used)
+- Tailwind CSS
 
-### Backend (Server)
-
+### ⚙️ Backend (Server)
 - Node.js
 - Express.js
-- MongoDB (Database)
+- MongoDB
 - Nodemailer (for emails)
 
 ---
 
 ## 📁 Project Structure
-
-```
 Eventora/
- ├── client/    # Frontend (React)
- └── server/    # Backend (Node + Express)
-```
+├── client/ # Frontend (React + Vite)
+└── server/ # Backend (Node + Express)
 
----
-
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the repository
-
-```bash
-git clone https://github.com/Aryanss02/Eventora.git
-cd Eventora
-```
-
----
-
-### 2️⃣ Setup Backend
-
-```bash
-cd server
-npm install
-```
-
-Create a `.env` file in the `server` folder and add:
-
-```
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-EMAIL_USER=your_email
-EMAIL_PASS=your_email_password
-```
-
-Run the server:
-
-```bash
-npm run dev
-```
-
----
-
-### 3️⃣ Setup Frontend
-
-Open a new terminal:
-
-```bash
-cd client
-npm install
-npm run dev
-```
 
 ---
 
 ## 🌐 API Endpoints (Example)
 
-- `POST /api/auth/register` → Register user
-- `POST /api/auth/login` → Login user
-- `GET /api/events` → Get all events
-- `POST /api/bookings` → Book an event
+- `POST /api/auth/register` → Register user  
+- `POST /api/auth/login` → Login user  
+- `GET /api/events` → Get all events  
+- `POST /api/bookings` → Book an event  
 
 ---
 
-## 🚀 Deployment
+## ⚙️ Environment Variables
 
-- Frontend: Vercel / Netlify
-- Backend: Render / Railway
+Create a `.env` file in the **server** folder and add:
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+EMAIL_USER=your_email
+EMAIL_PASS=your_email_password
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+git clone https://github.com/Aryanss02/eventora.git
+
+cd eventora
+
+### 2️⃣ Install Dependencies
+
+#### Client
+cd client
+npm install
+
+#### Server
+cd server
+npm install
+
+---
+
+## ▶️ Run the Project Locally
+
+Open two terminals:
+
+### Terminal 1 – Backend
+cd server
+npm run dev
+
+### Terminal 2 – Frontend
+cd client
+npm run dev
+
+
+---
+
+## 🌍 Deployment
+
+- Frontend: Vercel / Netlify  
+- Backend: Render / Railway  
+
+---
+
+## 🧪 Demo Credentials
+
+- **Admin Email:** admin@eventora.com  
+- **User Email:** user@eventora.com  
+- **Password:** password123  
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome!
+Contributions are welcome!  
 Feel free to fork this repo and submit a pull request.
 
 ---
@@ -121,11 +122,11 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-**Aryan Singh**
-GitHub: https://github.com/Aryanss02
+**Aryan Singh**  
+GitHub: https://github.com/Aryanss02  
 
 ---
 
 ## ⭐ Show your support
 
-If you like this project, give it a ⭐ on GitHub!
+If you like this project, don’t forget to ⭐ the repository!
